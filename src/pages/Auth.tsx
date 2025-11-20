@@ -183,6 +183,11 @@ const Auth = () => {
         <p className="text-center text-sm text-muted-foreground">
           By continuing, you agree to our privacy-first approach
         </p>
+        <p className="text-center text-sm flex items-center justify-center gap-2 
+          bg-gradient-to-r from-primary/20 to-secondary/20 
+          text-primary font-medium py-2 px-4 rounded-xl shadow-sm">
+          After signUp Please check your email to verify your account before signing in.
+        </p>
       </div>
     </div>
   );
