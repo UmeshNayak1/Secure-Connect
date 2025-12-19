@@ -66,11 +66,17 @@ const Index = () => {
           >
             Get Started
           </Button>
-
-          <p className="text-sm text-muted-foreground">
-            Free to use • No ads • Privacy-focused
-          </p>
         </div>
+        <footer className="mt-20 border-t border-border/40 py-6">
+          <div className="container mx-auto px-4 text-center space-y-2">
+            <p className="text-sm text-muted-foreground">
+              © {new Date().getFullYear()} SecureConnect. All rights reserved.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              • Free to use • No ads • Privacy-first
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   );
